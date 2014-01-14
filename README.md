@@ -15,7 +15,7 @@ _Note_: This library does not block!
 Use
 ==============
 ```js
-michel@h9:~$ node
+> michel@xone:~$ node
 > var r = require('rns')
 undefined
 > r.connect().repl()
@@ -23,18 +23,19 @@ undefined
 > var result = r.dbList().run()
 undefined
 > [
-  "thinky_test",
   "test"
 ]
 
 > result
-{ status: 'ready',
-  _start: Tue Jan 14 2014 09:29:57 GMT-0800 (PST),
-  _end: Tue Jan 14 2014 09:29:57 GMT-0800 (PST),
-  _data: [ 'thinky_test', 'test' ] }
+{ _status: 'ready',
+  _start: Tue Jan 14 2014 10:31:11 GMT-0800 (PST),
+  _end: Tue Jan 14 2014 10:31:11 GMT-0800 (PST),
+  _data: [ 'test' ] }
+> result.status()
+'ready'
 > result.time()
-0.008
+0.002
 > result.data()
-[ 'thinky_test', 'test' ]
+[ 'test' ]
 > 
 ```
