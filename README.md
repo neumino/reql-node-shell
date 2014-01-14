@@ -16,7 +16,7 @@ Use
 ==============
 ```js
 michel@h9:~$ node
-> var r = require('./lib')
+> var r = require('rns')
 undefined
 > r.connect().repl()
 undefined

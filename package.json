@@ -1,6 +1,6 @@
 {
   "name": "rns",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper for RethinkDB JavaScript driver for Node shell",
   "main": "lib/index.js",
   "repository": {
