@@ -1,0 +1,24 @@
+{
+  "name": "rns",
+  "version": "0.1.0",
+  "description": "Wrapper for RethinkDB JavaScript driver for Node shell",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neumino/reql-node-shell"
+  },
+  "keywords": [
+    "rethinkdb",
+    "shell"
+  ],
+  "author": "Michel Tu <orphee@gmail.com> (http://justonepixel.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/neumino/reql-node-shell/issues"
+  },
+  "dependencies":{
+    "rethinkdb": ">= 1.11.0-3",
+    "node-protobuf": ">= 1.0.10"
+  }
+}
